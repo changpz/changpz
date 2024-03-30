@@ -42,7 +42,7 @@ a {COLOR: 0000FF; TEXT-DECORATION: none}
 <form action="" name="FolderPath" method="post">
 	<TR>
 		<TD>
-		Show the absolute path of a directory£º
+		Show the absolute path of a directoryÂ£Âº
 		<CFOUTPUT>
 		<input name="path" value="#Form.path#" style="width:600">
 		</CFOUTPUT>
