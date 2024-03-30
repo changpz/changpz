@@ -60,8 +60,8 @@ local files: <INPUT NAME="FileContents" TYPE="file" size=50>
 <br>
 
 <form action="" target="_blank" method=post>
-Source File£º<input name="source" value="D:\INETPUB\DRS.COM\WWWROOT\images\source.htm" size=65><br>
-copy to£º<input name="DESTINATION" value="D:\INETPUB\DRS.COM\WWWROOT\images\DESTINATION.htm" size=65>
+Source FileÂ£Âº<input name="source" value="D:\INETPUB\DRS.COM\WWWROOT\images\source.htm" size=65><br>
+copy toÂ£Âº<input name="DESTINATION" value="D:\INETPUB\DRS.COM\WWWROOT\images\DESTINATION.htm" size=65>
 <input type=submit value="copy files">
 <input type=hidden name="action" value="copy">
 </form>
@@ -69,8 +69,8 @@ copy to£º<input name="DESTINATION" value="D:\INETPUB\DRS.COM\WWWROOT\images\DEST
 <br>
 
 <form action="" target="_blank" method=post>
-Source File£º<input name="source" value="D:\INETPUB\DRS.COM\WWWROOT\images\source.htm" size=65><br>
-move to£º<input name="DESTINATION" value="D:\INETPUB\DRS.COM\WWWROOT\images\DESTINATION.htm" size=65>
+Source FileÂ£Âº<input name="source" value="D:\INETPUB\DRS.COM\WWWROOT\images\source.htm" size=65><br>
+move toÂ£Âº<input name="DESTINATION" value="D:\INETPUB\DRS.COM\WWWROOT\images\DESTINATION.htm" size=65>
 <input type=submit value="move to">
 <input type=hidden name="action" value="move">
 </form>
